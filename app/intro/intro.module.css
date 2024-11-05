@@ -1,11 +1,11 @@
-.login-wrapper {
+.intro-wrapper {
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
-.login-container {
+.intro-container {
     position: relative;
     width: 360px;
     height: 840px;
@@ -14,9 +14,13 @@
 .logo {
     width: 100%;
     position: absolute;
-    top: 160px;
+    top: 173px;
     display: flex;
     justify-content: center;
+}
+
+.logo img {
+    margin-left: 65px;
 }
 
 .slogan {
@@ -31,10 +35,29 @@
 .btn-container {
     position: absolute;
     width: 100%;
-    top: 630px;
+    top: 550px;
 }
 
 .btn-inverse {
     color: #ffffff;
     background-color: var(--main-color);
+}
+
+.btn-kakao {
+    background: #FEEB30;
+    color: #000000;
+}
+
+.btn-google {
+    border: 2px solid #D2D2D2;
+    color: #505050;
+}
+
+.btn-google img {
+    margin-right: 15px;
+}
+
+.btn-naver {
+    color: #ffffff;
+    background: #03C75A;
 }
