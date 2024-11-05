@@ -23,9 +23,10 @@
 * Next.js 15.0.2
 * React.js 19.0.0
 * Typescript 5
-* Tailwindcss 3.4.1
+* TailwindCss 3.4.1
+* PostCss 8
 * EsLint 8
-* Daisyui
+* DaisyUi
 * Docker
 
 ## 빌드
