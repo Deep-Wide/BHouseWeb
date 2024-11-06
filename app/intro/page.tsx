@@ -17,7 +17,9 @@ export default function Intro() {
         <div className={styles['logo']}>
           <Image src={loginLogo} alt={'체크된 로고'} />
         </div>
-        <div className={styles['slogan']}>나한테 꼭 맞는 집을 찾을 때까지 빈집콕!</div>
+        <div className={'flex justify-center'}>
+          <div className={styles['slogan']}>나한테 꼭 맞는 집을 찾을 때까지 빈집콕!</div>
+        </div>
         <div className={styles['btn-container']}>
           <Link href="login">
             <BeanButton icon={emailIcon} text="이메일로 시작하기" colorClass={styles['btn-inverse']} />

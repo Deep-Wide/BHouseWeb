@@ -24,12 +24,29 @@
 }
 
 .slogan {
-    width: 100%;
+    width: 305px;
     position: absolute;
+    overflow: hidden;
     top: 400px;
     font-weight: 700;
     font-size: 19px;
-    text-align: center;
+    white-space: nowrap;
+    border-right: 2px solid #000000;
+    animation: typing 10s steps(30, end) infinite, blink-caret 0.5s step-end infinite;
+}
+
+/* 타이핑 효과 */
+@keyframes typing {
+    0% { max-width: 0; }
+    60% { max-width: 0; }
+    80% { max-width: 100%; }
+    99% { max-width: 100%; }
+    100% { max-width: 0; }
+}
+
+/* 깜박이는 커서 효과 */
+@keyframes blink-caret {
+    50% { border-color: transparent; }
 }
 
 .btn-container {
@@ -61,3 +78,5 @@
     color: #ffffff;
     background: #03C75A;
 }
+
+
