@@ -38,7 +38,7 @@
 /* 타이핑 효과 */
 @keyframes typing {
     0% { max-width: 0; }
-    20% { max-width: 100%; }
+    21% { max-width: 100%; }
     100% { max-width: 100%; }
 }
 
