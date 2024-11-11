@@ -1,3 +1,4 @@
+'use client';
 import styles from './login.module.css';
 import Logo from '@/public/img/logo.svg';
 import KakaoCircle from '@/public/img/icon/kakao-circle.svg';
