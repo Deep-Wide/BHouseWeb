@@ -8,3 +8,10 @@ export interface IButton {
   icon?: StaticImageData;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
+
+export interface IInput {
+  className?: string;
+  label?: string;
+  placeholder?: string;
+  type?: string;
+}

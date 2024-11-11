@@ -1,0 +1,43 @@
+.title {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #555555;
+    top: 90px;
+}
+
+.title-text {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.form {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+}
+
+.bar {
+    position: absolute;
+    border-top: 2px solid var(--gray-color);
+    width: 100%;
+    top: 500px;
+}
+
+.sign-up {
+    position: absolute;
+    width: 100%;
+    top: 670px;
+}
+
+.sns-login {
+    position: absolute;
+    width: 100%;
+    top: 535px;
+    color: var(--gray-color);
+    font-size: 17px;
+}

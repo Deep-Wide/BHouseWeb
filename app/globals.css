@@ -9,6 +9,7 @@
   --max-width: 600px;
   --font-size: 14px;
   --main-color: #94C1A3;
+  --gray-color: #9A9A9A;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,4 +43,22 @@ body {
   min-height: 100%;
   border-left: 1px solid var(--layout-bg-color);
   border-right: 1px solid var(--layout-bg-color);
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 360px;
+  height: 840px;
+}
+
+.btn-inverse {
+  color: #ffffff !important;
+  background-color: var(--main-color);
 }
